@@ -1,0 +1,127 @@
+@font-face {
+    font-family: 'danstargate';
+    src: url('../assets/danstargate.ttf');
+    font-weight: 600;
+}
+html,
+body {
+    padding: 0;
+    margin: 0;
+    left: 0;
+    top: 0;
+    background: rgb(247, 247, 247);
+    font-size: 100%;
+    font-family: Helvetica;
+    font-weight: normal;
+    color: rgb(51, 51, 51);
+}
+div,
+p,
+span,
+li,
+a,
+h1,
+h2,
+h3,
+textarea,
+input {
+    font-family: HelveticaNeue;
+    font-weight: normal;
+}
+ul li {
+    list-style-type: none;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+img,
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+input,
+textarea,
+img {
+    border: none;
+    outline: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    background: none;
+}
+input[type="radio"],
+input[type="checkbox"] {
+    width: auto;
+}
+input[type=search] {
+    -webkit-appearance: none;
+}
+
+select {
+    opacity: 0;
+    padding: 10px 10px 10px 0px;
+    border-radius: 0px;
+    margin: 0px;
+    outline: none;
+    min-width: 105px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    cursor: pointer;
+    height: 100%;
+    width: 100%;
+}
+textarea {
+    resize: none;
+}
+article, aside, footer, header, hgroup, main, nav, section {
+    display: block;
+}
+:focus {
+    outline: none;
+}
+::-moz-focus-inner {
+    border: 0;
+}
+.display-block{
+    display:block;
+}
+.display-none{
+    display:none;
+}
+.show{
+    opacity:1;
+}
+.hide{
+    opacity:0;
+}
+.bot-zero{
+    bottom:0;
+}
+.nav ul li.selected-page{
+    border-color: #bdbdbd;
+    color: #555;
+}
+.hidden-blk{
+    overflow:hidden;
+}
+.coming-soon{
+    position:absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* height: 502px; */
+    font-size: 23px;
+    letter-spacing: 1em;
+    width: 100%
+}
+a:hover {
+    text-decoration: none;
+}

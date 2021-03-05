@@ -1,0 +1,159 @@
+#course ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: table-row;
+}
+.course-nav-container ul li{
+    background-color: transparent;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 0;
+    border-image-width: 0;
+    display: block;
+    height: 200px;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    position: relative;
+    opacity: 0.74;
+    -webkit-transition: opacity .3s ease-in-out;
+    -o-transition: opacity .3s ease-in-out;
+    transition: opacity .3s ease-in-out;
+}
+.course-nav-container ul li a {
+    bottom: 0;
+    cursor: pointer;
+    display: block;
+    height: 100%;
+    left: 0;
+    min-height: 200px;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+}
+.course-nav-container video{
+    left: 50%;
+    pointer-events: none;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.course-nav-container{
+    background: #000;
+    border: 0;
+    height: 75pc;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    width: 100%;
+
+
+}
+.course-nav-container a strong,.course-nav-container a em{
+    display: block;
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.course-nav-container a strong{
+    border: 2px solid transparent;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    height: 140px;
+    letter-spacing: .05em;
+    line-height: 1.4em;
+    pointer-events: none;
+    text-align: center;
+    text-transform: uppercase;
+    -webkit-transition: border-color .2s linear,opacity .2s linear;
+    -o-transition: border-color .2s linear,opacity .2s linear;
+    transition: border-color .2s linear,opacity .2s linear;
+    width: 140px;
+    z-index: 1;
+}
+.course-nav-container li:hover strong {
+    border-color: #fff;
+    opacity: 1;
+}
+.course-nav-container li:hover {
+    opacity: 1;
+}
+.course-nav-container a em {
+    border-bottom: 2px solid #fff;
+    font-style: normal;
+    height: 90pt;
+    -webkit-transition: border-color .2s linear;
+    -o-transition: border-color .2s linear;
+    transition: border-color .2s linear;
+    vertical-align: middle;
+    width: 65px;
+}
+.course-nav-container a span {
+    display: inline-block;
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 90px;
+    font-size: 14px;
+}
+.course-nav-container li:hover em {
+    border-color: transparent;
+}
+.course-nav-container a strong {
+    -webkit-mask-image: url(../assets/texture-1.png?20150825);
+    mask-image: url(../assets/texture-1.png?20150825);
+    -webkit-mask-position: center center;
+    mask-position: center center;
+    -webkit-mask-size: 32pc;
+    mask-size: 32pc;
+}
+.course-nav-container ul li video {
+    display: none;
+}
+.course-nav-container ul li:hover video{
+    display: block;
+}
+
+@media (min-height: 550px) and (min-width: 900px){
+    .course-nav-container{
+        border-spacing: 0;
+        border-collapse: collapse;
+        display: table;
+        height: 725px;
+        table-layout: fixed;
+    }
+    .course-nav-container ul li {
+        display: table-cell;
+        height: auto;
+        -webkit-transition: opacity .3s ease-in-out,width .5s ease-in-out;
+        -o-transition: opacity .3s ease-in-out,width .5s ease-in-out;
+        transition: opacity .3s ease-in-out,width .5s ease-in-out;
+        width: 16.66667%;
+    }
+    .course-nav-container a {
+        min-height: 725px;
+    }
+    .course-nav-container a strong{
+        top:75%;
+    }
+    .course-nav-container li:hover {
+            width: 50%;
+    }
+}

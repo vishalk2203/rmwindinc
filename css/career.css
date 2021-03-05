@@ -1,0 +1,89 @@
+#career{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.contact-banner-text {
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    /*background-color: #5BBC2E;*/
+    color: #fff;
+    background: url(../assets/hero-aboutus.jpg)center center no-repeat;
+}
+input,textarea{
+    margin: 0;
+    outline: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+
+}
+.inp-con:focus , .contact-textarea:focus{
+    border-bottom: 2px solid #888;
+}
+.contact-group{
+    padding-top: 35px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.area-code {
+    padding: 0 60px 0 0;
+}
+.inp-con {
+    opacity: .5;
+    font-size: 20px !important;
+    font-weight: 500;
+    line-height: 32px;
+    padding: 10px 0 3px !important;
+    border-bottom:2px solid rgb(238,238,238);
+    -webkit-transition: all ease-in-out 1s;
+    -o-transition: all ease-in-out 1s;
+    transition: all ease-in-out 1s;
+}
+
+.submitcontact {
+    text-align: center;
+}
+.job-description {
+    margin-top: 35px !important;
+}
+.contact-textarea {
+    border-bottom:2px solid rgb(238,238,238);
+    outline: 0;
+    padding: 55px 10px 60px 4px;
+    width: 100%;
+    opacity: .5;
+    font-weight: 500;
+    line-height: 32px;
+    overflow: hidden;
+    resize: none;
+    font-size: 20px;
+    -webkit-transition: all ease-in-out 1s;
+    -o-transition: all ease-in-out 1s;
+    transition: all ease-in-out 1s;
+}
+.outerbox{
+    display: flex;
+    justify-content: center;
+    height: 80%;
+    align-items: center;
+}
+.submitcontact .contact {
+    width: 226px;
+    font-size: 18px;
+    color: #888;
+    line-height: 20px;
+    background: #FFF;
+    border: 2px solid #E0E0E0;
+    border-radius: 3px;
+    text-decoration: none!important;
+    padding: 10px 40px 8px;
+
+}
+.text-content{
+    margin-top: 20px;
+
+}

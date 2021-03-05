@@ -1,0 +1,77 @@
+.contact-container{
+    position:relative;
+    width:100%;
+    height:100%;
+}
+.map-container{
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    /*right: 0;*/
+    top: 0;
+    width:60%;
+}
+.contact-information-container {
+    bottom: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 40%;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+#map{
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+.address-information,.telephone-information,.mail-information,.share-information{
+    position: relative;
+    padding: 50px 30px 50px 30px;
+    border-bottom: 2px solid #454545;
+}
+.address-info-blk,.tel-info-blk,.mail-info-blk{
+    display: inline-block;
+    font-size: 16px;
+    letter-spacing: 0.1em;
+    vertical-align: middle;
+    line-height: 20px;
+
+}
+.address-info-blk:nth-child(1),.tel-info-blk:nth-child(1),.mail-info-blk:nth-child(1){
+    position: absolute;
+    font-weight: 500;
+
+}
+.address-info-blk:nth-child(2),.tel-info-blk:nth-child(2),.mail-info-blk:nth-child(2){
+    margin-left: 80px;
+}
+.address-info-end{
+    margin-left: 80px;
+    line-height: 50px;
+    letter-spacing: 0.1em;
+}
+.share-information span{
+    margin-left: 30px;
+    cursor: pointer;
+}
+.share-information{
+    /*border-bottom: 0px!important;*/
+    padding-left: 0px;
+}
+.footer-logo{
+    text-align: right;
+    margin: 10px 0px 0px 0px;
+
+}
+.footer-logo a{opacity: 1;}
+.footer-copyrights{
+    font-size: 12px;
+    letter-spacing: 0.1em;
+    text-align: right;
+    margin-right:15px;
+
+}
+.contactustext{
+    margin-top: 10px;
+}
